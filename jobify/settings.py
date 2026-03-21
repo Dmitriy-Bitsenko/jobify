@@ -47,9 +47,9 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
-    "analytics",
-    "core",
-    "parser"
+    "analytics.apps.AnalyticsConfig",
+    "core.apps.CoreConfig",
+    "parser.apps.ParserConfig",
 ]
 
 MIDDLEWARE = [
