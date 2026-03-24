@@ -129,3 +129,10 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/6.0/howto/static-files/
 
 STATIC_URL = "static/"
+
+# HH.ru API settings
+HH_API = {
+    "CLIENT_ID": env("HH_CLIENT_ID", default=""),
+    "CLIENT_SECRET": env("HH_CLIENT_SECRET", default=""),
+    "ACCESS_TOKEN": env("HH_ACCESS_TOKEN", default=""),
+}
