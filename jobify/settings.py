@@ -47,6 +47,10 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+    # Сторонние приложения
+    "rest_framework",
+    "drf_spectacular",
+    # Локальные приложения
     "analytics.apps.AnalyticsConfig",
     "core.apps.CoreConfig",
     "parser.apps.ParserConfig",
