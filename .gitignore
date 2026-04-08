@@ -73,4 +73,5 @@ dmypy.json
 *.bak
 *.swp
 *~
-"parser/services/test_client.py" 
+parser/services/test_client.py
+
